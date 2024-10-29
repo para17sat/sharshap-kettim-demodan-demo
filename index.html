@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comic Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      background-color: #fde3be;
+      padding: 10px;
+    }
+
+    .header div {
+      background-color: black;
+      padding: 5px;
+      color: white;
+    }
+
+    .header h1 {
+      margin: 0;
+      text-align: center;
+      color: #333;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 10px;
+      padding: 10px;
+    }
+
+    .comic-panel {
+      background-color: #f0f0f0;
+      padding: 5px;
+      border: 2px solid #ccc;
+    }
+
+    .footer {
+      text-align: right;
+      padding: 10px;
+      font-weight: bold;
+      background-color: #fde3be;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div>Here is a first page of our comics</div>
+    <h1>Demo 4</h1>
+    <div>Here is a second page of our comics</div>
+  </div>
+
+  <div class="grid-container">
+
+    <img class="comic-panel" src="C:\Users\Parasat\Desktop\demo 3\img 1.png" alt="Comic Panel">
+    <img class="comic-panel" src="C:\Users\Parasat\Desktop\demo 3\img2.png" alt="Comic Panel">
+    <img class="comic-panel" src="C:\Users\Parasat\Desktop\demo 3\img 3.png" alt="Comic Panel">
+    <img class="comic-panel" src="C:\Users\Parasat\Desktop\demo 3\img 3.png" alt="Comic Panel">
+    <img class="comic-panel" src="C:\Users\Parasat\Desktop\demo 3\img 4.png" alt="Comic Panel">
+    <img class="comic-panel" src="C:\Users\Parasat\Desktop\demo 3\img 5.png" alt="Comic Panel">
+    <img class="comic-panel" src="C:\Users\Parasat\Desktop\demo 3\img 6.png" alt="Comic Panel">
+    <img class="comic-panel" src="C:\Users\Parasat\Desktop\demo 3\img 7.png" alt="Comic Panel">
+    <img class="comic-panel" src="C:\Users\Parasat\Desktop\demo 3\img 8.png" alt="Comic Panel">
+    <img class="comic-panel" src="C:\Users\Parasat\Desktop\demo 3\img 9.png" alt="Comic Panel">
+  </div>
+
+  <div class="footer">
+    Parasat Meyirkhan
+  </div>
+
+</body>
+</html>
